@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    gap: 2rem;
+}
+
+.link {
+    font-weight: 600;
+}
+
+.link:hover {
+    color: #CB4335 ;
+}
