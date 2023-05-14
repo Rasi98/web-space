@@ -116,3 +116,12 @@ a {
 .topic {
   color: #CB4335;
 }
+
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #CB4335;
+}
