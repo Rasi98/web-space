@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Style from "./styles.module.css";
+import Style from "./navBar.module.css";
 
 export default function Navbar() {
   return (
@@ -7,8 +7,8 @@ export default function Navbar() {
       <Link className={Style.link} href="/">
         Home
       </Link>
-      <Link className={Style.link} href="/about">
-        About
+      <Link className={Style.link} href="/users">
+        Users
       </Link>
       <Link className={Style.link} href="/project">
         Project
